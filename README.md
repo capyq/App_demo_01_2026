@@ -35,7 +35,7 @@ Utiliser le Context API de React pour gérer :
 
 ### 6. Maquette
 
-![Maquette](public/maquette.png)
+![Maquette](maquette.png)
 
 ## Technologies
 
