@@ -1,0 +1,6 @@
+.mainPage {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 15rem 1fr;
+  overflow: hidden;
+}

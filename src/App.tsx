@@ -1,7 +1,16 @@
-import { Page } from "./page/Page";
+import { HeaderApp } from "./components/headerApp/HeaderApp";
+import { ThemeProvider } from "./context/ThemeContext";
+import { MainPage } from "./page/MainPage";
 
 function App() {
-  return <Page />;
+  return (
+    <main>
+      <ThemeProvider>
+        <HeaderApp />
+        <MainPage />
+      </ThemeProvider>
+    </main>
+  );
 }
 
 export default App;

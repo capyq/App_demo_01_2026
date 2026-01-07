@@ -15,14 +15,14 @@
   --text-link-color: #ffffff;
 }
 
-:root[data-theme='light'] {
+:root[data-theme="light"] {
   --bg-color-header: #e1e1e1;
   --bg-color-menu: #f5f5f5;
   --bg-color-content: #ffffff;
   --text-color: #000000;
 }
 
-:root[data-theme='dark'] {
+:root[data-theme="dark"] {
   --bg-color-header: #1a1a1a;
   --bg-color-menu: #222;
   --bg-color-content: #2a2a2a;
@@ -67,4 +67,11 @@ button:focus-visible {
 label {
   display: block;
   font-size: 0.75rem;
+}
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background-color: var(--page-bg-color);
+  color: var(--text-color);
 }
