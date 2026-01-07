@@ -1,12 +1,7 @@
-import { Page } from "./components/Page";
-import { StoreProvider } from "./store/StoreProvider";
+import { Page } from "./page/Page";
 
 function App() {
-  return (
-    <StoreProvider>
-      <Page />
-    </StoreProvider>
-  );
+  return <Page />;
 }
 
 export default App;
